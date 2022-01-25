@@ -1,0 +1,851 @@
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:09:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 19052
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:09:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 19052
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:09:57 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27656
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:09:57 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27656
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:09:57 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "10"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Activities] (
+    [ActivityId] int NOT NULL IDENTITY,
+    [Type] nvarchar(max) NULL,
+    [IpAddress] nvarchar(max) NULL,
+    [Location] nvarchar(max) NULL,
+    [OperatingSystem] nvarchar(max) NULL,
+    [Date] datetime2 NOT NULL,
+    [UserId] nvarchar(max) NULL,
+    [Color] nvarchar(max) NULL,
+    [Icon] nvarchar(max) NULL,
+    CONSTRAINT [PK_Activities] PRIMARY KEY ([ActivityId])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27656
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:11:39 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 29556
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:11:39 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 29556
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:12:12 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32552
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:12:12 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32552
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:12:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 33296
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:12:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 33296
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:12:24 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Activities] (
+    [ActivityId] int NOT NULL IDENTITY,
+    [Type] nvarchar(max) NULL,
+    [IpAddress] nvarchar(max) NULL,
+    [Location] nvarchar(max) NULL,
+    [OperatingSystem] nvarchar(max) NULL,
+    [Date] datetime2 NOT NULL,
+    [UserId] nvarchar(max) NULL,
+    [Color] nvarchar(max) NULL,
+    [Icon] nvarchar(max) NULL,
+    CONSTRAINT [PK_Activities] PRIMARY KEY ([ActivityId])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 33296
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:16:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30740
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:16:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30740
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:20:39 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32340
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:20:39 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32340
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:20:39 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "7"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Rooms] (
+    [RoomId] int NOT NULL IDENTITY,
+    [RoomName] nvarchar(max) NULL,
+    [AccessPassword] nvarchar(max) NULL,
+    [SecurityToken] nvarchar(max) NULL,
+    [ServerIP] nvarchar(max) NULL,
+    [GProto] nvarchar(max) NULL,
+    [MaxPlayers] int NOT NULL,
+    [MinRaise] int NOT NULL,
+    [MaxRaise] int NOT NULL,
+    [SmallBlind] int NOT NULL,
+    [BigBlind] int NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [MinCoinForAccess] int NOT NULL,
+    [MaxCoinForAccess] int NOT NULL,
+    [RecoveryEmail] nvarchar(max) NULL,
+    [BadLogins] int NOT NULL,
+    [NowConnected] bit NOT NULL,
+    [IsOfficial] bit NOT NULL,
+    CONSTRAINT [PK_Rooms] PRIMARY KEY ([RoomId])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32340
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:21:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21548
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:21:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21548
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:21:15 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "20"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [CardModels] (
+    [CardId] int NOT NULL IDENTITY,
+    [Suit] int NOT NULL,
+    [Value] int NOT NULL,
+    [RoundLogId] nvarchar(450) NULL,
+    CONSTRAINT [PK_CardModels] PRIMARY KEY ([CardId]),
+    CONSTRAINT [FK_CardModels_RoundLogs_RoundLogId] FOREIGN KEY ([RoundLogId]) REFERENCES [RoundLogs] ([RoundLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21548
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:23:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27828
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:23:02 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27828
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:23:02 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "30"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [RoomRoundLogs] (
+    [RoomRoundLogId] int NOT NULL IDENTITY,
+    [RoomLogId] int NOT NULL,
+    [RoundLogId] nvarchar(450) NULL,
+    CONSTRAINT [PK_RoomRoundLogs] PRIMARY KEY ([RoomRoundLogId]),
+    CONSTRAINT [FK_RoomRoundLogs_RoomLogs_RoomLogId] FOREIGN KEY ([RoomLogId]) REFERENCES [RoomLogs] ([RoomLogId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RoomRoundLogs_RoundLogs_RoundLogId] FOREIGN KEY ([RoundLogId]) REFERENCES [RoundLogs] ([RoundLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 27828
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:24:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 37356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:24:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 37356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:24:13 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [RoundUsersLog] (
+    [RoundUsersLogId] int NOT NULL IDENTITY,
+    [RoundLogId] nvarchar(450) NULL,
+    [PlayerId] int NOT NULL,
+    [RoundUserCardsJson] nvarchar(max) NULL,
+    [UserPoints] int NOT NULL,
+    CONSTRAINT [PK_RoundUsersLog] PRIMARY KEY ([RoundUsersLogId]),
+    CONSTRAINT [FK_RoundUsersLog_RoundLogs_RoundLogId] FOREIGN KEY ([RoundLogId]) REFERENCES [RoundLogs] ([RoundLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 37356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:25:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11816
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:25:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11816
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:25:33 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "14"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [RoundWinners] (
+    [RoundWinnerLogId] int NOT NULL IDENTITY,
+    [RoundLogId] nvarchar(450) NULL,
+    [PlayerId] int NOT NULL,
+    [Pot] bigint NOT NULL,
+    [Reason] nvarchar(max) NULL,
+    [Points] bigint NOT NULL,
+    [SecondaryPoints] bigint NOT NULL,
+    [FullPot] bigint NOT NULL,
+    [PotNumber] int NOT NULL,
+    CONSTRAINT [PK_RoundWinners] PRIMARY KEY ([RoundWinnerLogId]),
+    CONSTRAINT [FK_RoundWinners_RoundLogs_RoundLogId] FOREIGN KEY ([RoundLogId]) REFERENCES [RoundLogs] ([RoundLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11816
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:26:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 6724
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:26:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 6724
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:26:15 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "8"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [UsersLogModels] (
+    [UserLogId] int NOT NULL IDENTITY,
+    [RoundUsersLogId] int NOT NULL,
+    [PlayerId] int NOT NULL,
+    [FullName] nvarchar(max) NULL,
+    CONSTRAINT [PK_UsersLogModels] PRIMARY KEY ([UserLogId]),
+    CONSTRAINT [FK_UsersLogModels_RoundUsersLog_RoundUsersLogId] FOREIGN KEY ([RoundUsersLogId]) REFERENCES [RoundUsersLog] ([RoundUsersLogId]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 6724
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:27:05 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 24276
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:27:05 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 24276
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:27:06 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "31"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [CardModels] (
+    [CardId] int NOT NULL IDENTITY,
+    [Suit] int NOT NULL,
+    [Value] int NOT NULL,
+    [RoundLogId] nvarchar(450) NULL,
+    CONSTRAINT [PK_CardModels] PRIMARY KEY ([CardId]),
+    CONSTRAINT [FK_CardModels_RoundLogs_RoundLogId] FOREIGN KEY ([RoundLogId]) REFERENCES [RoundLogs] ([RoundLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 24276
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:28:29 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14416
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:28:29 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14416
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:28:30 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "13"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [RoundLogs] (
+    [RoundLogId] nvarchar(450) NOT NULL,
+    [RoungLogStartDate] datetime2 NOT NULL,
+    [RoungLogEndDate] datetime2 NOT NULL,
+    [RoomLogId] int NULL,
+    CONSTRAINT [PK_RoundLogs] PRIMARY KEY ([RoundLogId]),
+    CONSTRAINT [FK_RoundLogs_RoomLogs_RoomLogId] FOREIGN KEY ([RoomLogId]) REFERENCES [RoomLogs] ([RoomLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14416
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:29:30 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20496
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 2:29:30 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20496
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 3:02:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32408
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 3:02:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 32408
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 3:02:22 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 37736
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/18/2020 3:02:22 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 37736
+ProcessName : "dotnet"
+------------------------------------------------------------------------

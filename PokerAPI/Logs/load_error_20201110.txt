@@ -1,0 +1,1688 @@
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 5:10:20 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 22208
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 5:10:20 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 22208
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 5:11:46 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "IL4AB0e27W8javhADbqPYA"
+RequestId : "80000008-0007-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|a5406afe-4e4478b4fa192635."
+TraceId : "a5406afe-4e4478b4fa192635"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 22208
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1521
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1496
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 507
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 456
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 145
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1521
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1496
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 507
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 456
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 145
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 5:32:54 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 24448
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 5:32:55 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 24448
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:01:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 4256
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:01:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 4256
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:13:10 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28268
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:13:10 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28268
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:13:22 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RemovePlayerFromRoom"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "admqe9pRjmBHh5wxPxejww"
+RequestId : "8000000e-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|e0569e56-4c16561e350f02d0."
+TraceId : "e0569e56-4c16561e350f02d0"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28268
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, String roomId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 781
+   at PokerAPI.Hubs.RoomHub.RemovePlayerFromRoom(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 110
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, String roomId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 781
+   at PokerAPI.Hubs.RoomHub.RemovePlayerFromRoom(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 110
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:13:32 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RemovePlayerFromRoom"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "admqe9pRjmBHh5wxPxejww"
+RequestId : "8000000e-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|e0569e56-4c16561e350f02d0."
+TraceId : "e0569e56-4c16561e350f02d0"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28268
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, String roomId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 781
+   at PokerAPI.Hubs.RoomHub.RemovePlayerFromRoom(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 110
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, String roomId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 781
+   at PokerAPI.Hubs.RoomHub.RemovePlayerFromRoom(String roomId, String userId) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 110
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:14:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 22352
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 6:14:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 22352
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:14:49 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24924
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:14:49 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24924
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:18:41 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:18:41 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:20:48 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17264
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:20:48 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17264
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:23:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10656
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:23:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10656
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:24:58 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 23448
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:24:58 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 23448
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:26:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16096
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:26:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16096
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:27:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 13376
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 7:27:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 13376
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 8:00:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17340
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 8:00:14 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17340
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 8:02:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24788
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 8:02:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24788
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:32:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 12864
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:32:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 12864
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:34:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26972
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:34:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26972
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:37:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2012
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:37:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2012
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:41:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22848
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:41:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22848
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:46:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 27956
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:46:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 27956
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:49:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 13376
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:49:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 13376
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:51:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1632
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:51:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1632
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:52:14 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RequestDeposit"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "E9cq8fjdEe2Juou5FRj6xA"
+RequestId : "80000049-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|995ce470-4e0d0344296052f5."
+TraceId : "995ce470-4e0d0344296052f5"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1632
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.ArgumentNullException: Value cannot be null. (Parameter 'destinationArray')
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.CopyTo(Array array, Int32 index)
+   at PokerAPI.Hubs.RoomHub.InitRoundGame(Deck deck, UserData[] usersInGame, Int32 dealerPosition, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 572
+   at PokerAPI.Hubs.RoomHub.StartRound(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 405
+   at PokerAPI.Hubs.RoomHub.<>c__DisplayClass18_0.<<CheckStartGame>b__0>d.MoveNext() in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 377
+--- End of stack trace from previous location where exception was thrown ---
+   at PokerAPI.Hubs.RoomHub.CheckStartGame(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 367
+   at PokerAPI.Hubs.RoomHub.ingressSchema(Int32 position, UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 266
+   at PokerAPI.Hubs.RoomHub.sitFlow(Int32 position, UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 241
+   at PokerAPI.Hubs.RoomHub.AddChipsToUser(String userID, Int64 chips, Int64 accountChips, RoomModel room, Int32 position) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 332
+   at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 89
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Array.CopyTo(Array array, Int32 index)
+   at PokerAPI.Hubs.RoomHub.InitRoundGame(Deck deck, UserData[] usersInGame, Int32 dealerPosition, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 572
+   at PokerAPI.Hubs.RoomHub.StartRound(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 405
+   at PokerAPI.Hubs.RoomHub.<>c__DisplayClass18_0.<<CheckStartGame>b__0>d.MoveNext() in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 377
+--- End of stack trace from previous location where exception was thrown ---
+   at PokerAPI.Hubs.RoomHub.CheckStartGame(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 367
+   at PokerAPI.Hubs.RoomHub.ingressSchema(Int32 position, UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 266
+   at PokerAPI.Hubs.RoomHub.sitFlow(Int32 position, UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 241
+   at PokerAPI.Hubs.RoomHub.AddChipsToUser(String userID, Int64 chips, Int64 accountChips, RoomModel room, Int32 position) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 332
+   at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 89
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Value cannot be null. (Parameter 'destinationArray')Source - System.Private.CoreLibInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:52:36 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10640
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:52:36 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10640
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:53:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16516
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:53:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16516
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:56:15 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26332
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:56:15 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26332
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:57:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7756
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:57:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7756
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:58:10 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2092
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 10:58:10 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2092
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:01:42 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1220
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:01:42 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1220
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:03:56 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28108
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:03:56 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28108
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:04:41 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17864
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:04:41 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17864
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:06:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28548
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:06:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28548
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:07:51 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22820
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:07:51 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22820
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:14:20 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25344
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:14:20 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25344
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:15:11 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "YvkCuiOEdHih9bX66JR6SQ"
+RequestId : "8000005b-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|69f453ae-407b9091e13ba39c."
+TraceId : "69f453ae-407b9091e13ba39c"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25344
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1554
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1529
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 541
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 490
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 169
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1554
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1529
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 541
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 490
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 169
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:15:15 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "A2l3BidjOnyqzxmeTXmbJw"
+RequestId : "8000001e-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|69f453b3-407b9091e13ba39c."
+TraceId : "69f453b3-407b9091e13ba39c"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25344
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1554
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1529
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 541
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 490
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 169
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1554
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1529
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 541
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 490
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 169
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 68
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:17:40 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:17:40 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:19:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24108
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:19:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 24108
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:21:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22188
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:21:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 22188
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:28:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2592
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:28:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2592
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:29:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2292
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:29:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2292
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:30:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14528
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:30:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14528
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:32:12 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28616
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:32:12 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28616
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:34:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28692
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:34:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 28692
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:36:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25460
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:36:18 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25460
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:37:09 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25728
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:37:09 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 25728
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:42:07 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 23768
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:42:07 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 23768
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:42:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 29644
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:42:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 29644
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:46:26 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17840
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:46:26 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17840
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:51:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26120
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/10/2020 11:51:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 26120
+ProcessName : "iisexpress"
+------------------------------------------------------------------------

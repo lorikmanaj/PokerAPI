@@ -1,0 +1,1043 @@
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:21:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29756
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:21:00 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29756
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:21:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 22356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:21:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 22356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:21:21 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "8"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [RoundLogs] (
+    [RoundLogId] nvarchar(450) NOT NULL,
+    [RoungLogStartDate] datetime2 NOT NULL,
+    [RoungLogEndDate] datetime2 NOT NULL,
+    [RoomLogId] int NULL,
+    CONSTRAINT [PK_RoundLogs] PRIMARY KEY ([RoundLogId]),
+    CONSTRAINT [FK_RoundLogs_RoomLogs_RoomLogId] FOREIGN KEY ([RoomLogId]) REFERENCES [RoomLogs] ([RoomLogId]) ON DELETE NO ACTION
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 22356
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:22:59 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 11380
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:22:59 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 11380
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:23:11 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 30292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:23:11 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 30292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:23:11 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "5"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Activities] (
+    [ActivityId] int NOT NULL IDENTITY,
+    [Type] nvarchar(max) NULL,
+    [IpAddress] nvarchar(max) NULL,
+    [Location] nvarchar(max) NULL,
+    [OperatingSystem] nvarchar(max) NULL,
+    [Date] datetime2 NOT NULL,
+    [UserId] nvarchar(max) NULL,
+    [Color] nvarchar(max) NULL,
+    [Icon] nvarchar(max) NULL,
+    CONSTRAINT [PK_Activities] PRIMARY KEY ([ActivityId])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 30292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:24:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 10100
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:24:47 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 10100
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:24:47 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "4"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE INDEX [IX_CardModels_RoundLogId] ON [CardModels] ([RoundLogId]);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 10100
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:31 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 25556
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:31 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 25556
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE INDEX [IX_RoundUsersLogs_RoundLogId] ON [RoundUsersLogs] ([RoundLogId]);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 25556
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:55 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 31292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:55 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 31292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:25:55 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "6"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE INDEX [IX_RoundUsersLogs_UserLogId] ON [RoundUsersLogs] ([UserLogId]);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 31292
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:26:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 17368
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:26:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 17368
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:26:51 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "5"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE INDEX [IX_RoundUsersLogs_UserLogId] ON [RoundUsersLogs] ([UserLogId]);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 17368
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:27:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 24208
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:27:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 24208
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:28:31 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29112
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:28:31 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29112
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:28:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "6"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Activities] (
+    [ActivityId] int NOT NULL IDENTITY,
+    [Type] nvarchar(max) NULL,
+    [IpAddress] nvarchar(max) NULL,
+    [Location] nvarchar(max) NULL,
+    [OperatingSystem] nvarchar(max) NULL,
+    [Date] datetime2 NOT NULL,
+    [UserId] nvarchar(max) NULL,
+    [Color] nvarchar(max) NULL,
+    [Icon] nvarchar(max) NULL,
+    CONSTRAINT [PK_Activities] PRIMARY KEY ([ActivityId])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29112
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:07 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 3860
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:07 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 3860
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:08 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "48"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Banns] (
+    [UserId] nvarchar(450) NOT NULL,
+    [ReporterID] nvarchar(450) NOT NULL,
+    [BannId] int NOT NULL IDENTITY,
+    [Reason] nvarchar(max) NULL,
+    [RegisteredBanDate] datetime2 NOT NULL,
+    [ExpireBanDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Banns] PRIMARY KEY ([UserId], [ReporterID]),
+    CONSTRAINT [FK_Banns_AspNetUsers_ReporterID] FOREIGN KEY ([ReporterID]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Banns_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 3860
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29016
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29016
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:30:57 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "33"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Warnings] (
+    [UserId] nvarchar(450) NOT NULL,
+    [ReporterId] nvarchar(450) NOT NULL,
+    [WarningId] int NOT NULL IDENTITY,
+    [Message] nvarchar(max) NULL,
+    [Registered] datetime2 NOT NULL,
+    [Restarts] int NOT NULL,
+    CONSTRAINT [PK_Warnings] PRIMARY KEY ([UserId], [ReporterId]),
+    CONSTRAINT [FK_Warnings_AspNetUsers_ReporterId] FOREIGN KEY ([ReporterId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Warnings_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 29016
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:31:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 21776
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 1:31:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19042.0"
+Version : "5.0.0"
+UserName : "lorik"
+ProcessId : 21776
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:27:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 13164
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:27:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 13164
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:27:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:27:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:33:00 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "41ijNeiV69lwd47G7Opg_g"
+RequestId : "80000047-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 8:33:00 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "41ijNeiV69lwd47G7Opg_g"
+RequestId : "80000047-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "dhnZ2cSOxsJhr1iaZjHY8w"
+RequestId : "8000004f-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "dhnZ2cSOxsJhr1iaZjHY8w"
+RequestId : "8000004f-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "Hy4dD-7U2DdwnS6D1B9O-Q"
+RequestId : "80000094-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "Hy4dD-7U2DdwnS6D1B9O-Q"
+RequestId : "80000094-0007-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:32 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "t6eBdA4kAPyZycDdziOd-Q"
+RequestId : "8000006e-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:32 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "t6eBdA4kAPyZycDdziOd-Q"
+RequestId : "8000006e-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:32 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "yH1QbQ7o_S0p9djMHzV9dQ"
+RequestId : "80000008-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/24/2020 11:57:32 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "yH1QbQ7o_S0p9djMHzV9dQ"
+RequestId : "80000008-0007-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+Application : "Poker_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "5.0.0"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.InvalidOperationException: A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at Microsoft.EntityFrameworkCore.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at PokerAPI.Hubs.RoomHub.GetCurrentUser(Int32 userId, ChallengeActions challengeActions, UserDataStatus userDataStatus) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 2013
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\dioni\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 65
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass16_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - A second operation was started on this context before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.Source - Microsoft.EntityFrameworkCoreInnerException - ------------------------------------------------------------------------

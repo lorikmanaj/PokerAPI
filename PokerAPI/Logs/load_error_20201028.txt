@@ -1,0 +1,118 @@
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:08:24 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 45348
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:08:24 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 45348
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:09:47 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "SitPlayerInRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "WIGEqAd2TfKCzf9SXuiGQw"
+RequestId : "80000069-0005-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|384382d8-400b55da978957b6."
+TraceId : "384382d8-400b55da978957b6"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 45348
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.SitPlayerInRoomAsync(String roomId, String userId, Int32 tablePlace) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 143
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.SitPlayerInRoomAsync(String roomId, String userId, Int32 tablePlace) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 143
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:09:49 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "SitPlayerInRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "WIGEqAd2TfKCzf9SXuiGQw"
+RequestId : "80000069-0005-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|384382d8-400b55da978957b6."
+TraceId : "384382d8-400b55da978957b6"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 45348
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.SitPlayerInRoomAsync(String roomId, String userId, Int32 tablePlace) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 151
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.SitPlayerInRoomAsync(String roomId, String userId, Int32 tablePlace) in C:\Users\EverCloud\Desktop\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 151
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:11:02 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 6364
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/28/2020 11:11:02 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 6364
+ProcessName : "iisexpress"
+------------------------------------------------------------------------

@@ -1,0 +1,633 @@
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:32:25 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11296
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:32:25 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11296
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:33:43 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21568
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:33:43 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21568
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:35:47 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 29472
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:35:47 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 29472
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:39:09 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 23632
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:39:09 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 23632
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:43:09 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 28824
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 7:43:09 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 28824
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 8:07:08 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 26052
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 8:07:08 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 26052
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:34:19 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 8968
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:34:19 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 8968
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:38:42 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 9084
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:38:42 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 9084
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:42:19 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21992
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 10:42:19 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21992
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:32:43 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11476
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:32:43 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 11476
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:33:40 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20024
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:33:40 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20024
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:36:07 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 5508
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:36:07 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 5508
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:37:42 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 10396
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:37:42 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 10396
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:37:56 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21468
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:37:56 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21468
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:37:57 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Banns] (
+    [UserId] nvarchar(450) NOT NULL,
+    [ReporterID] nvarchar(450) NOT NULL,
+    [Reason] nvarchar(max) NULL,
+    [RegisteredBanDate] datetime2 NOT NULL,
+    [ExpireBanDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Banns] PRIMARY KEY ([UserId], [ReporterID]),
+    CONSTRAINT [FK_Banns_AspNetUsers_ReporterID] FOREIGN KEY ([ReporterID]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Banns_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21468
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:39:30 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21260
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:39:30 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21260
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:39:31 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "13"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Friendships] (
+    [InvitingUser] nvarchar(450) NOT NULL,
+    [InvitedUser] nvarchar(450) NOT NULL,
+    [RequestedDate] datetime2 NOT NULL,
+    [Accepted] bit NOT NULL,
+    CONSTRAINT [PK_Friendships] PRIMARY KEY ([InvitingUser], [InvitedUser]),
+    CONSTRAINT [FK_Friendships_AspNetUsers_InvitedUser] FOREIGN KEY ([InvitedUser]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Friendships_AspNetUsers_InvitingUser] FOREIGN KEY ([InvitingUser]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 21260
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:40:07 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 13844
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:40:07 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 13844
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:40:10 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [Warnings] (
+    [UserId] nvarchar(450) NOT NULL,
+    [ReporterId] nvarchar(450) NOT NULL,
+    [Message] nvarchar(max) NULL,
+    [Registered] datetime2 NOT NULL,
+    [Restarts] int NOT NULL,
+    CONSTRAINT [PK_Warnings] PRIMARY KEY ([UserId], [ReporterId]),
+    CONSTRAINT [FK_Warnings_AspNetUsers_ReporterId] FOREIGN KEY ([ReporterId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Warnings_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 13844
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:40:44 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20164
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/7/2020 11:40:44 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 20164
+ProcessName : "dotnet"
+------------------------------------------------------------------------

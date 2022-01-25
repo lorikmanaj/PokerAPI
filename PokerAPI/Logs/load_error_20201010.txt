@@ -1,0 +1,307 @@
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:57 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:57 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+userId : "e5f0cb94-456a-46ff-a7d2-251765f2aa22"
+errors : "PasswordRequiresUpper"
+EventId : { Id: 14 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+userId : "01e582ec-f2e5-4cea-8e1a-4958f4a37c18"
+errors : "PasswordRequiresUpper"
+EventId : { Id: 14 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:20:58 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+KeyId : 7e7b9df7-fdb3-41c6-898a-11362e2771d2
+EventId : { Id: 35 }
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 30044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:26 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:26 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:30 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+userId : "7a76f398-8005-4300-a9f9-3558f1f2fcc6"
+errors : "PasswordRequiresUpper"
+EventId : { Id: 14 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:30 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:31 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+userId : "923b01c6-0180-4a50-af23-0f5f543eafa8"
+errors : "PasswordRequiresUpper"
+EventId : { Id: 14 }
+SourceContext : "Microsoft.AspNetCore.Identity.UserManager"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:31 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Error : "Microsoft.AspNetCore.Identity.IdentityError"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:37:42 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 14100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:42:47 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 7120
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:42:47 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 7120
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:42:52 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 7120
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:50:20 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 28044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:50:20 PM +02:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 28044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/10/2020 11:50:21 PM +02:00 | Level - Error |
+-----------------------------------------------------------------------
+Application : "CMS_API"
+MachineName : "LAPTOP-3RQPN2IA"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.8"
+UserName : "lorik"
+ProcessId : 28044
+ProcessName : "iisexpress"
+------------------------------------------------------------------------

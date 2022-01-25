@@ -1,0 +1,1781 @@
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 12:00:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2508
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 12:00:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2508
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:04:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 20592
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:04:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 20592
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:05:07 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "19"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "VM60TWueeiFlu8LcPyUeeg"
+RequestId : "80000002-0005-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|6c3528f2-48cc836fabb4ba48."
+TraceId : "6c3528f2-48cc836fabb4ba48"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 20592
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:10:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11236
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:10:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11236
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:15:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:15:33 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:15:44 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "15"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "ppU-PRlJcNJRQakrcBqhAQ"
+RequestId : "80000003-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|65ca4f59-4d2b3595d7b18ef2."
+TraceId : "65ca4f59-4d2b3595d7b18ef2"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:17:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10320
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:17:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10320
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:17:37 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "16"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "DHr0b1jPm0SXdY2xIkBgAw"
+RequestId : "80000008-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|f61a5c1e-4d59e5eeb01ec094."
+TraceId : "f61a5c1e-4d59e5eeb01ec094"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 10320
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:17:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2104
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:17:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 2104
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:19:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 3328
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:19:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 3328
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:20:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11040
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:20:52 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11040
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:21:06 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "15"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "3m-tcZ71t3EIbd28cu3nqg"
+RequestId : "80000006-0000-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|42df9e3e-49cec7d9ac5efa6f."
+TraceId : "42df9e3e-49cec7d9ac5efa6f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11040
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:25:51 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:25:51 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:30:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:30:43 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:31:06 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12,314"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "FKnhwl6xLKusNnngenIfZg"
+RequestId : "8000000c-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|bad25e7b-4f174b5b63c3ab90."
+TraceId : "bad25e7b-4f174b5b63c3ab90"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16052
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:35:58 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16172
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:35:58 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 16172
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:38:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 5996
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:38:19 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 5996
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:38:27 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "18"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "_EtOJONJDpqMSSv5LAiiZw"
+RequestId : "80000004-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|2b5dd8cd-48310f3199235285."
+TraceId : "2b5dd8cd-48310f3199235285"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 5996
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:39:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11676
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:39:46 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11676
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:40:25 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "18"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "BS1ccrx4RzIe1KbLYGGfyA"
+RequestId : "8000000e-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fbf773ca-41b8be8d0f0cd4ad."
+TraceId : "fbf773ca-41b8be8d0f0cd4ad"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11676
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:40:41 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "HRoB83xNrEgQ3TybWo9-gQ"
+RequestId : "80000010-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fbf773d2-41b8be8d0f0cd4ad."
+TraceId : "fbf773d2-41b8be8d0f0cd4ad"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 11676
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:43:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:43:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:44:04 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "18"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "KiXMAy2RwB9Xr0ke_trEbA"
+RequestId : "8000001d-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|222528d-4b4f54829c106d75."
+TraceId : "222528d-4b4f54829c106d75"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 17100
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:44:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:44:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:45:12 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "kcbleItM9hEFC0EnRn2SHA"
+RequestId : "80000008-0005-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00019-496f2b824ff55c4a."
+TraceId : "9ab00019-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:45:21 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "kcbleItM9hEFC0EnRn2SHA"
+RequestId : "80000008-0005-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00019-496f2b824ff55c4a."
+TraceId : "9ab00019-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:46:03 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "10"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "kkVkLioynCke4aJZNWRjxA"
+RequestId : "80000013-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00021-496f2b824ff55c4a."
+TraceId : "9ab00021-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:03 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "10"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "j6KJAG2QKxmsYtOFyj7clA"
+RequestId : "80000017-0002-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00029-496f2b824ff55c4a."
+TraceId : "9ab00029-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:13 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "o7qPNjl8yPIYIim0kMw_dA"
+RequestId : "80000037-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00031-496f2b824ff55c4a."
+TraceId : "9ab00031-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:19 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "o7qPNjl8yPIYIim0kMw_dA"
+RequestId : "80000037-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00031-496f2b824ff55c4a."
+TraceId : "9ab00031-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:31 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "XcHWmI_uylWWGKoArbqDZQ"
+RequestId : "80000007-0002-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9ab00046-496f2b824ff55c4a."
+TraceId : "9ab00046-496f2b824ff55c4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 9948
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:44 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:44 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:47:56 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "15"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "lkP6icC46siJ__Bq_swpxA"
+RequestId : "8000000b-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf848-4193d2772ece0a4a."
+TraceId : "8dbdf848-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:48:03 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "14"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "lkP6icC46siJ__Bq_swpxA"
+RequestId : "8000000b-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf848-4193d2772ece0a4a."
+TraceId : "8dbdf848-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:48:09 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "13"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "lkP6icC46siJ__Bq_swpxA"
+RequestId : "8000000b-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf848-4193d2772ece0a4a."
+TraceId : "8dbdf848-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:48:15 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "15"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "lkP6icC46siJ__Bq_swpxA"
+RequestId : "8000000b-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf848-4193d2772ece0a4a."
+TraceId : "8dbdf848-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:48:22 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "lkP6icC46siJ__Bq_swpxA"
+RequestId : "8000000b-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf848-4193d2772ece0a4a."
+TraceId : "8dbdf848-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 9:48:30 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "13"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "BHG7wJNhmZbU-51G3w7VRw"
+RequestId : "80000027-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8dbdf851-4193d2772ece0a4a."
+TraceId : "8dbdf851-4193d2772ece0a4a"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 7560
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:24:08 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:24:08 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:24:24 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "23"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "zZdExa-ZtLmaDZX03Hxqmw"
+RequestId : "80000004-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|ff70f749-4e3af7f1d04e1758."
+TraceId : "ff70f749-4e3af7f1d04e1758"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14196
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:26:22 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1944
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:26:22 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1944
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:26:38 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "12"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "dyON9ZKVS4-W6zAHWfa7Tg"
+RequestId : "8000000c-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|f62c4ed8-463fdff7ee5111c0."
+TraceId : "f62c4ed8-463fdff7ee5111c0"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1944
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:27:34 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "3_93n-4qg963Td3lmRcjkw"
+RequestId : "80000024-0006-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|f62c4f70-463fdff7ee5111c0."
+TraceId : "f62c4f70-463fdff7ee5111c0"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1944
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:27:43 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "NsAkWfaBoe3f3F_ar780dg"
+RequestId : "80000002-0003-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|f62c4f99-463fdff7ee5111c0."
+TraceId : "f62c4f99-463fdff7ee5111c0"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 1944
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:31:30 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4708
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:31:30 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4708
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:36:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14940
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:36:06 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 14940
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:37:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:37:25 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:37:41 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "16"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "NKD2jBhwg-z34Te4imxs1g"
+RequestId : "8000004c-0004-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf7708-4f6da677ca1b865f."
+TraceId : "1fdf7708-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:37:58 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "14"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "GhT_GFZCzBRy2etyK32AQQ"
+RequestId : "80000028-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf7757-4f6da677ca1b865f."
+TraceId : "1fdf7757-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:38:06 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "GhT_GFZCzBRy2etyK32AQQ"
+RequestId : "80000028-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf7757-4f6da677ca1b865f."
+TraceId : "1fdf7757-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:38:14 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "21"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "TGyE9o7bgAYMhgWZGBlIeQ"
+RequestId : "80000032-0000-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf775f-4f6da677ca1b865f."
+TraceId : "1fdf775f-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:38:22 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "9"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "nD3vgZa9uNJwK-DzhgDiXw"
+RequestId : "80000046-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf7771-4f6da677ca1b865f."
+TraceId : "1fdf7771-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 10:38:37 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "10"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "ZGTUFvD9sRSEnS6TVRj-AQ"
+RequestId : "8000003c-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|1fdf7790-4f6da677ca1b865f."
+TraceId : "1fdf7790-4f6da677ca1b865f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 4324
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 11:15:35 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 8828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 11:15:35 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 8828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 11:16:57 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "17"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "RQeN9bxaZSJzvQR4239SPw"
+RequestId : "80000032-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|c4ae33b3-47ba18fba72727e2."
+TraceId : "c4ae33b3-47ba18fba72727e2"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 8828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 11:17:02 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "11"
+parameters : "@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (DbType = Int64), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2)"
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SET NOCOUNT ON;
+INSERT INTO [UsersInRooms] ([UserId], [RoomId], [MoneyInRoom], [Position], [Registered])
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "Tty8gXUi1IHvotWJP-AQpA"
+RequestId : "80000048-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|c4ae33a7-47ba18fba72727e2."
+TraceId : "c4ae33a7-47ba18fba72727e2"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 8828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/7/2020 11:17:03 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UsersInRooms'. Cannot insert duplicate key in object 'dbo.UsersInRooms'. The duplicate key value is (73f06acd-c188-4753-85bf-6ad26ad35d90, 1).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6d4f3a2b-f75d-45f6-8d07-b92c47f3a74a
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+EventId : { Id: 10000, Name: "Microsoft.EntityFrameworkCore.Update.SaveChangesFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Update"
+TransportConnectionId : "Tty8gXUi1IHvotWJP-AQpA"
+RequestId : "80000048-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|c4ae33a7-47ba18fba72727e2."
+TraceId : "c4ae33a7-47ba18fba72727e2"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-7LD49I9"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18362.0"
+Version : "3.1.8"
+UserName : "dioni"
+ProcessId : 8828
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UsersInRooms'. Cannot insert duplicate key in object 'dbo.UsersInRooms'. The duplicate key value is (73f06acd-c188-4753-85bf-6ad26ad35d90, 1).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6d4f3a2b-f75d-45f6-8d07-b92c47f3a74a
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Stacktrace -    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Message - An error occurred while updating the entries. See the inner exception for details.Source - Microsoft.EntityFrameworkCore.RelationalInnerException - Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_UsersInRooms'. Cannot insert duplicate key in object 'dbo.UsersInRooms'. The duplicate key value is (73f06acd-c188-4753-85bf-6ad26ad35d90, 1).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:6d4f3a2b-f75d-45f6-8d07-b92c47f3a74a
+Error Number:2627,State:1,Class:14------------------------------------------------------------------------

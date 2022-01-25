@@ -1,0 +1,1469 @@
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:35:23 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 33176
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:35:23 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 33176
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:39:57 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:39:57 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:44:28 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "2SQTp-ENqRT40TqCYPBKXw"
+RequestId : "80000061-0002-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd379-49b1651a667b4d64."
+TraceId : "fdbdd379-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:44:38 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "M6KRodCTwiGUJ4OYbYmJ1g"
+RequestId : "80000034-0001-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd387-49b1651a667b4d64."
+TraceId : "fdbdd387-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:44:38 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "Bh09tQGMZ3_BLLdUK1eO9w"
+RequestId : "80000004-0003-fb00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd389-49b1651a667b4d64."
+TraceId : "fdbdd389-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:46:17 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "jfcW7uRIihnLzHVGXqFNhA"
+RequestId : "8000002c-0007-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd399-49b1651a667b4d64."
+TraceId : "fdbdd399-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:47:18 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "-qWRZamUB1cur19mcCCBJw"
+RequestId : "8000002b-0000-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd3a9-49b1651a667b4d64."
+TraceId : "fdbdd3a9-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:47:28 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "M_FYgE0f-r0n7I7Iow9_uw"
+RequestId : "80000002-0002-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd3b1-49b1651a667b4d64."
+TraceId : "fdbdd3b1-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:49:23 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "3U97eGaznUGEyt7ie3mqRQ"
+RequestId : "80000035-0005-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd3f2-49b1651a667b4d64."
+TraceId : "fdbdd3f2-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:49:25 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "KoqPEEishb_sdTiSjkUSNA"
+RequestId : "8000009e-0004-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|fdbdd3fa-49b1651a667b4d64."
+TraceId : "fdbdd3fa-49b1651a667b4d64"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40624
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:49:43 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:49:43 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:50:09 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RequestDeposit"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "xTsslYsnE3UwZfEizmZLgw"
+RequestId : "800000b1-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8ea54fcd-4a41682c0759d928."
+TraceId : "8ea54fcd-4a41682c0759d928"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:50:18 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RequestDeposit"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "xTsslYsnE3UwZfEizmZLgw"
+RequestId : "800000b1-0007-fe00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8ea54fcd-4a41682c0759d928."
+TraceId : "8ea54fcd-4a41682c0759d928"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:51:31 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "oDla-kPNONludYcKRx7erg"
+RequestId : "8000002f-0000-fb00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8ea54ff1-4a41682c0759d928."
+TraceId : "8ea54ff1-4a41682c0759d928"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:51:37 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "U94lqS4pVJ9TqMCxP_ycjQ"
+RequestId : "8000001c-0002-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|8ea54ff9-4a41682c0759d928."
+TraceId : "8ea54ff9-4a41682c0759d928"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 31904
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 182
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:51:57 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40472
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:51:57 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40472
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:52:04 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "RequestDeposit"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "aW0OJDrrZBF6taMfr6jxZA"
+RequestId : "8000007f-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|9e04178-44d60e247fa7809f."
+TraceId : "9e04178-44d60e247fa7809f"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 40472
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.RequestDeposit(String roomId, String userId, Int64 chips, Int32 position) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 103
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:55:23 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 34356
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:55:23 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 34356
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:57:51 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 36920
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:57:51 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 36920
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:23:02 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 22644
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:23:02 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 22644
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:45:14 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "decisionInform"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "DmBri197a50hUhIMI1kHfw"
+RequestId : "80000041-0002-fc00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|c0ab8339-47a51f25262b1930."
+TraceId : "c0ab8339-47a51f25262b1930"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 22644
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.SplitAndNormalizedPots(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1574
+   at PokerAPI.Hubs.RoomHub.finishBets(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1096
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1022
+   at PokerAPI.Hubs.RoomHub.decisionInform(DecisionInform dI, String userId, String roomId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 111
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.SplitAndNormalizedPots(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1574
+   at PokerAPI.Hubs.RoomHub.finishBets(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1096
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1022
+   at PokerAPI.Hubs.RoomHub.decisionInform(DecisionInform dI, String userId, String roomId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 111
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:45:42 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 19372
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:45:42 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 19372
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:48:24 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "decisionInform"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "ecUPUZ9T806qjfTfaUAT7w"
+RequestId : "80000057-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|c6403513-4ea50cdf8de63317."
+TraceId : "c6403513-4ea50cdf8de63317"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 19372
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerAPI.Hubs.RoomHub.SplitAndNormalizedPots(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1574
+   at PokerAPI.Hubs.RoomHub.finishBets(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1096
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1022
+   at PokerAPI.Hubs.RoomHub.decisionInform(DecisionInform dI, String userId, String roomId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 111
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.SplitAndNormalizedPots(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1574
+   at PokerAPI.Hubs.RoomHub.finishBets(RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1096
+   at PokerAPI.Hubs.RoomHub.processDecision(DecisionInform dI, String userId, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 1022
+   at PokerAPI.Hubs.RoomHub.decisionInform(DecisionInform dI, String userId, String roomId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 111
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass33_0.<WrapVoidMethod>b__0(Object target, Object[] parameters)
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:07:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 33488
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:07:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 33488
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:32:02 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 13532
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 11:32:02 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 13532
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:14:40 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 15524
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:14:40 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 15524
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:51:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 11704
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:51:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 11704
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:52:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25296
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 1:52:32 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25296
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:16:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 29340
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:16:01 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 29340
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:17:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 14636
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:17:21 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 14636
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:18:59 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28492
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:18:59 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28492
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:20:16 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 14524
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:20:16 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 14524
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:21:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25308
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:21:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25308
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:26:08 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 220
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:26:08 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 220
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:33:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25808
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:33:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 25808
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:35:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 24708
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:35:13 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 24708
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:37:34 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 9004
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:37:34 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 9004
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:39:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 19976
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:39:04 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 19976
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:44:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 31144
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:44:23 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 31144
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:50:49 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28304
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:50:49 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 28304
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:52:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 8428
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 2:52:17 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-8TVU330"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.0"
+UserName : "EverCloud"
+ProcessId : 8428
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:12:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 11096
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:12:45 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 11096
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:48:57 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "Y8fAtvmzL9UUhta3uNHDyw"
+RequestId : "8000005f-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|ab2979d7-433c2bda8e938550."
+TraceId : "ab2979d7-433c2bda8e938550"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 11096
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 173
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 173
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 190
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:49:03 PM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "wD7XXfrpYqKx__yTCvYY4g"
+RequestId : "80000081-0003-ff00-b63f-84710c7967bb"
+RequestPath : "/notify/rooms"
+SpanId : "|ab2979df-433c2bda8e938550."
+TraceId : "ab2979df-433c2bda8e938550"
+ParentId : ""
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 11096
+ProcessName : "iisexpress"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.NullReferenceException: Object reference not set to an instance of an object.
+   at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 173
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerLogic.Utils.Utils.getSchemaFromCard(Card card) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\GameSvc\Utils\Utils.cs:line 173
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 574
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 521
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 200
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\PokerAPI\Hubs\RoomHub.cs:line 73
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Object reference not set to an instance of an object.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:52:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 43660
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 11/17/2020 3:52:28 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "3.1.1"
+UserName : "User"
+ProcessId : 43660
+ProcessName : "iisexpress"
+------------------------------------------------------------------------

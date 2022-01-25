@@ -1,0 +1,201 @@
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:18:37 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 44160
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:18:37 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 44160
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:18:37 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "MoneyInRoom"
+entityType : "UserInRoom"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 44160
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:18:45 AM +01:00 | Level - Error |
+-----------------------------------------------------------------------
+Error : "Value cannot be null. (Parameter 'name')"
+StackTrace : "   at System.Globalization.RegionInfo..ctor(String name)
+   at CookieService.CookieSvc.GetUserCountry() in C:\Users\User\Desktop\OurPoker\PokerAPI\Poker-Backhand\CookieService\CookieSvc.cs:line 90"
+InnerException : null
+Source : "System.Private.CoreLib"
+ActionId : "20f547ca-0c53-4401-9fb4-9ac891167c03"
+ActionName : "PokerAPI.Areas.Admin.Controllers.AccountController.Login (PokerAPI)"
+RequestId : "8000020e-0006-fb00-b63f-84710c7967bb"
+RequestPath : "/admin/Account/Login"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 44160
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:18:58 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+EventId : { Id: 20504, Name: "Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+ActionId : "6cf071d9-8357-43a0-ae0f-0ff34430f3ec"
+ActionName : "PokerAPI.Controllers.GameLogControllers.RoomRoundLogController.GetRoundLogID (PokerAPI)"
+RequestId : "8000011c-0000-f800-b63f-84710c7967bb"
+RequestPath : "/api/RoomRoundLog/GetRoundLogID/47ce6778-032e-495b-827e-38c37f0f91d5"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 44160
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:42:21 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 7988
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:42:21 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 7988
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 11:42:21 AM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "MoneyInRoom"
+entityType : "UserInRoom"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 7988
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 6:17:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 40828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 6:17:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 40828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 6:17:50 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "MoneyInRoom"
+entityType : "UserInRoom"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 40828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 12/16/2020 6:21:53 PM +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+EventId : { Id: 20504, Name: "Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+ActionId : "5c8f321a-d066-4edb-8b7b-84c23d4582a1"
+ActionName : "PokerAPI.Controllers.GameLogControllers.RoomRoundLogController.GetRoundLogID (PokerAPI)"
+RequestId : "800000e7-0001-fa00-b63f-84710c7967bb"
+RequestPath : "/api/RoomRoundLog/GetRoundLogID/47ce6778-032e-495b-827e-38c37f0f91d5"
+Application : "Poker_API"
+MachineName : "DESKTOP-2HOJ69I"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19041.0"
+Version : "5.0.0"
+UserName : "User"
+ProcessId : 40828
+ProcessName : "iisexpress"
+------------------------------------------------------------------------

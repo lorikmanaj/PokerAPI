@@ -1,0 +1,757 @@
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:09:03 +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2102
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:09:03 +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2102
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:13:07 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "oGSjjDr-0GnVvZYz43UswQ"
+RequestId : "0HM3TIN1E97BQ:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|1ee4a2a3-4db6d94aaf6306ec."
+TraceId : "1ee4a2a3-4db6d94aaf6306ec"
+ParentId : ""
+ConnectionId : "0HM3TIN1E97BQ"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2102
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:13:15 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "gxJIM4Oj8LdF7yFA9BF2-Q"
+RequestId : "0HM3TIN1E97BS:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|1ee4a2ab-4db6d94aaf6306ec."
+TraceId : "1ee4a2ab-4db6d94aaf6306ec"
+ParentId : ""
+ConnectionId : "0HM3TIN1E97BS"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2102
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:15:02 +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Chips"
+entityType : "ApplicationUser"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:15:02 +01:00 | Level - Warning |
+-----------------------------------------------------------------------
+property : "Deposit"
+entityType : "Challenge"
+EventId : { Id: 30000, Name: "Microsoft.EntityFrameworkCore.Model.Validation.DecimalTypeDefaultWarning" }
+SourceContext : "Microsoft.EntityFrameworkCore.Model.Validation"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:17:59 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "pUJVrYbU_p1t3Hgm-Kv2kQ"
+RequestId : "0HM3TIQC92NN5:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b31-465433744d19263f."
+TraceId : "77809b31-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NN5"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:17:59 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "WKi1Yo_20FIxQv6Lor_8XA"
+RequestId : "0HM3TIQC92NN7:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b39-465433744d19263f."
+TraceId : "77809b39-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NN7"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:18:14 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "S9vUnmmtJMzGCgkFOHBr8w"
+RequestId : "0HM3TIQC92NN9:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b41-465433744d19263f."
+TraceId : "77809b41-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NN9"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:18:14 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "Z8FmXeea0W0jnuGyuz1T8A"
+RequestId : "0HM3TIQC92NNB:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b49-465433744d19263f."
+TraceId : "77809b49-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNB"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:18:45 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "Ljll5nKKu1si0WasPl0DtA"
+RequestId : "0HM3TIQC92NND:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b51-465433744d19263f."
+TraceId : "77809b51-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NND"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:21:17 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "99zosR0ohTohxYA3SoLEpA"
+RequestId : "0HM3TIQC92NNF:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b59-465433744d19263f."
+TraceId : "77809b59-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNF"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:21:18 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "bnN6NQKSuYAsQ_WX2SanVA"
+RequestId : "0HM3TIQC92NNH:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b61-465433744d19263f."
+TraceId : "77809b61-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNH"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:31:55 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "K_JsCBWji5altExhPT1yMQ"
+RequestId : "0HM3TIQC92NNP:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b69-465433744d19263f."
+TraceId : "77809b69-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNP"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:31:58 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "xILc8yTdZ-5Hi5AMwq1NdA"
+RequestId : "0HM3TIQC92NO0:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b70-465433744d19263f."
+TraceId : "77809b70-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NO0"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:45 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "l2j09jXD3QSESzXdidSOwg"
+RequestId : "0HM3TIQC92NOF:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b81-465433744d19263f."
+TraceId : "77809b81-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NOF"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:46 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+HubMethod : "EnterRoomAsync"
+EventId : { Id: 8, Name: "FailedInvokingHubMethod" }
+SourceContext : "Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher"
+TransportConnectionId : "6sUL9P7t8aoAF6RY6HmTTQ"
+RequestId : "0HM3TIQC92NOC:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b7e-465433744d19263f."
+TraceId : "77809b7e-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NOC"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Stacktrace -    at PokerAPI.Hubs.RoomHub.UpdateArrayy(Card[] newArr, Card[] arr, Card turn, Card river) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1522
+   at PokerAPI.Hubs.RoomHub.getCommunityCards(RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 1497
+   at PokerAPI.Hubs.RoomHub.getSnapshot(String roomId, String userId, Int32 pos) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 520
+   at PokerAPI.Hubs.RoomHub.dumpSnapshot(RoomModel room, UserData user, Int32 i) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 469
+   at PokerAPI.Hubs.RoomHub.ingressFlow(UserData userData, RoomModel room) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 166
+   at PokerAPI.Hubs.RoomHub.EnterRoomAsync(String roomId, String userId) in /Users/diondula/Desktop/Poker-Backend/PokerAPI/Hubs/RoomHub.cs:line 98
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteHubMethod(ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<>c__DisplayClass13_0.<<Invoke>g__ExecuteInvocation|0>d.MoveNext()Message - Index was outside the bounds of the array.Source - PokerAPIInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:57 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "18,143"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT [r].[RoomId], [r].[AccessPassword], [r].[BadLogins], [r].[Description], [r].[GProto], [r].[IsOfficial], [r].[MaxPlayers], [r].[MinCoinForAccess], [r].[NowConnected], [r].[RecoveryEmail], [r].[RoomName], [r].[SecurityToken], [r].[ServerIP]
+FROM [Rooms] AS [r]"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "K_JsCBWji5altExhPT1yMQ"
+RequestId : "0HM3TIQC92NNP:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b69-465433744d19263f."
+TraceId : "77809b69-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNP"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:57 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+elapsed : "18,143"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT [r].[RoomId], [r].[AccessPassword], [r].[BadLogins], [r].[Description], [r].[GProto], [r].[IsOfficial], [r].[MaxPlayers], [r].[MinCoinForAccess], [r].[NowConnected], [r].[RecoveryEmail], [r].[RoomName], [r].[SecurityToken], [r].[ServerIP]
+FROM [Rooms] AS [r]"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+TransportConnectionId : "xILc8yTdZ-5Hi5AMwq1NdA"
+RequestId : "0HM3TIQC92NO0:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b70-465433744d19263f."
+TraceId : "77809b70-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NO0"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:57 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.Net.Sockets.SocketException (22): Invalid argument
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.ReadSyncOverAsync(Int32 timeoutRemaining, UInt32& error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "K_JsCBWji5altExhPT1yMQ"
+RequestId : "0HM3TIQC92NNP:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b69-465433744d19263f."
+TraceId : "77809b69-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NNP"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.Net.Sockets.SocketException (22): Invalid argument
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.ReadSyncOverAsync(Int32 timeoutRemaining, UInt32& error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()Stacktrace -    at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.ReadSyncOverAsync(Int32 timeoutRemaining, UInt32& error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()Message - Invalid argumentSource - System.Net.SocketsInnerException - ------------------------------------------------------------------------
+-----------------------------------------------------------------------
+Timestamp - 10/31/2020 13:38:57 +01:00 | Level - Error |
+-----------------------------------------------------------------------
+contextType : "DataService.ApplicationDbContext"
+newline : "
+"
+error : "System.Net.Sockets.SocketException (22): Invalid argument
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Receive(SNIPacket& packet, Int32 timeoutInMilliseconds)
+   at Microsoft.Data.SqlClient.SNI.TdsParserStateObjectManaged.ReadSyncOverAsync(Int32 timeoutRemaining, UInt32& error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()"
+EventId : { Id: 10100, Name: "Microsoft.EntityFrameworkCore.Query.QueryIterationFailed" }
+SourceContext : "Microsoft.EntityFrameworkCore.Query"
+TransportConnectionId : "xILc8yTdZ-5Hi5AMwq1NdA"
+RequestId : "0HM3TIQC92NO0:00000001"
+RequestPath : "/notify/rooms"
+SpanId : "|77809b70-465433744d19263f."
+TraceId : "77809b70-465433744d19263f"
+ParentId : ""
+ConnectionId : "0HM3TIQC92NO0"
+Application : "CMS_API"
+MachineName : "Dions-MacBook-Pro"
+CurrentManagedThreadId : 1
+OSVersion : "Unix 19.6.0.0"
+Version : "3.1.8"
+UserName : "diondula"
+ProcessId : 2295
+ProcessName : "dotnet"
+-------------------------EXCEPTION DETAILS-------------------------
+Exception - System.Net.Sockets.SocketException (22): Invalid argument
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.SetSocketOption(SocketOptionLevel optionLevel, SocketOptionName optionName, Int32 optionValue, Boolean silent)
